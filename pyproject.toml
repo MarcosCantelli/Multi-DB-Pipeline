@@ -12,6 +12,7 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest"]
+mssqlserver = ["mssql-python"]
 
 [project.scripts]
 multidb = "multidb.cli:main"
